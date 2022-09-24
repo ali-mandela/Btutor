@@ -1,8 +1,8 @@
- import './App.css';
-
+import './App.css';
+import Ad from './components/ad';
 function App() {
   return (<>
-    <h1>Hello world</h1>
+  <Ad/> 
   </>);
 }
 
