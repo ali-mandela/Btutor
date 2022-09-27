@@ -1,55 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@,300&display=swap');
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.navbar-main{ 
+    box-shadow: 1px 2px 3px black; 
+}   
+.navbar ul{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center; 
+    
+}
+.imglogo{
+    width: 90px ;
+    height : 90px;
+    object-fit: contain;
+}
+ul li{
+    font-size: 1.6rem;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
 }
 
-.bb{
-  height: 100vh;
-  text-align: center;
-  position: relative;
-  align-items: center;
-  background-color: gray;
-  padding: 20px;
-  margin: 20px;
-  padding-top: 190px;
-  line-height: 60px;
 
-  box-shadow: 1px -2px 4px black;
-}
-.bb h1{
-  color: black;
-  font-size: 3rem;
-  color: burlywood;
-  text-shadow: 1px 1px 1px orangered;
 
-}
-.bb p{
-  font-size: 2rem;
-  color: orangered;
-  text-shadow: 1px 2px black;
-}
-.bb .tt{
-  color: orangered;
-  top: 0;
-  right: 20px;
-  position: absolute;
-}
-.bb div{
-  position: absolute;
-  bottom: 70px;
-  left: 10px;
-  text-align: left;
-  line-height: 40px;
-}
-.bb div h5{
-  font-size: 25px;
-  color: greenyellow;
-  text-shadow: 1px 1px brown;
-}
-.bb div h6{
-  font-size: 33px;
-  
-  color: greenyellow;
-  text-shadow: 1px 1px brown;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active{
+    color: orangered;
 }
