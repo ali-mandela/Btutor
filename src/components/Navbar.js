@@ -1,6 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from '../Assets/logo.png';
+import '../css/Navbar.css'
+
+
+
 const Navbar = () => {
   return (<>
     <section className='navbar-main'>

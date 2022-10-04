@@ -1,17 +1,15 @@
 import '../css/Home.css'
 // import Carousel from './carousel'
-import pp from '../Assets/b2.svg'
-import heroimg2 from '../Assets/heroimg2.svg'
-import heroimg4 from '../Assets/heroimg4.svg'
-import Navbar from './Navbar'
+// import pp from '../Assets/b2.svg'
+// import heroimg2 from '../Assets/heroimg2.svg'
+import heroimg4 from '../Assets/heroimg4.svg' 
 
 
 // heroimg3
 const Home = () => {
 
  
-  return (<>
-  <Navbar/>
+  return (<> 
   <section className='home'>
     <div className='homeHeader'>
       <div className='homeHeaderTitle'>
@@ -32,10 +30,16 @@ const Home = () => {
       <img src={heroimg4} alt="poic"/>
       </div>
     </div>
+    <div className='hh'>social media powered talent contest. He has a passion and natural talent for singing and performing. In July 2015 Harris J graduated from the world renowned BRIT School of Performing Arts in London (alumni include Adele, Amy Winehouse and others). His debut album "Salam" is OUT NOW.
+    social media powered talent contest. He has a passion and natural talent for singing and performing. In July 2015 Harris J graduated from the world renowned BRIT School of Performing Arts in London (alumni include Adele, Amy Winehouse and others). His debut album "Salam" is OUT NOW.
+    social media powered talent contest. He has a passion and natural talent for singing and performing. In July 2015 Harris J graduated from the world renowned BRIT School of Performing Arts in London (alumni include Adele, Amy Winehouse and others). His debut album "Salam" is OUT NOW.
+    social media powered talent contest. He has a passion and natural talent for singing and performing. In July 2015 Harris J graduated from the world renowned BRIT School of Performing Arts in London (alumni include Adele, Amy Winehouse and others). His debut album "Salam" is OUT NOW.
+    social media powered talent contest. He has a passion and natural talent for singing and performing. In July 2015 Harris J graduated from the world renowned BRIT School of Performing Arts in London (alumni include Adele, Amy Winehouse and others). His debut album "Salam" is OUT NOW.
+</div>
   </section>
   </>)
 }
 
 export default Home
 
-{/* <div data-tf-widget="vYqoh5aC" data-tf-iframe-props="title=B Tutor" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script> */}
+/* <div data-tf-widget="vYqoh5aC" data-tf-iframe-props="title=B Tutor" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script> */
