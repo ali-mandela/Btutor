@@ -6,14 +6,20 @@
     font-family: 'Poppins', sans-serif;
     
 }
+a{
+    text-decoration: none;
+}
 .navbar-main{ 
     box-shadow: 1px 2px 3px black; 
+    
+    position: sticky;
 }   
 .navbar ul{
     display: flex;
     gap: 10px;
     justify-content: space-evenly;
     align-items: center; 
+    top: 0;
     
 }
 .imglogo{

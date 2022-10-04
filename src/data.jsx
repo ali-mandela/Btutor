@@ -1,5 +1,5 @@
 import b1 from './Assets/bq.png'
-import b2 from './Assets/b2.jfif'
+import b2 from './Assets/b2.svg'
 import b3 from './Assets/b3.jfif'
 
 
