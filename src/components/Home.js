@@ -22,7 +22,7 @@ const Home = () => {
         <a href="https://www.softr.io/blog/free-svg-illustrations#manypixels" > <h3 className='homeHeaderTitleh3'>Contact us
         </h3> </a>
          <p className='homeHeaderTitlep'>
-         Pixabay.com is a free stock photography and royalty-free stock media website. It is used for sharing photos, illustrations, vector graphics, film footage, and music, exclusively under the custom Pixabay license, which generally allows the free use of the material with some restrictions. The overall quality of the photos on the service has been described as "mediocre for the most part" and "variabl... Wikipedia
+         Online Teacher Finding Company is an innovative new platform that connects teachers with students who are looking for a mentor or tutor. We are currently recruiting teachers across the UK to join our team as we grow!
         </p>
         
       </div>
@@ -30,12 +30,6 @@ const Home = () => {
       <img src={heroimg4} alt="poic"/>
       </div>
     </div>
-    <div className='hh'>social media powered talent contest. He has a passion and natural talent for singing and performing. In July 2015 Harris J graduated from the world renowned BRIT School of Performing Arts in London (alumni include Adele, Amy Winehouse and others). His debut album "Salam" is OUT NOW.
-    social media powered talent contest. He has a passion and natural talent for singing and performing. In July 2015 Harris J graduated from the world renowned BRIT School of Performing Arts in London (alumni include Adele, Amy Winehouse and others). His debut album "Salam" is OUT NOW.
-    social media powered talent contest. He has a passion and natural talent for singing and performing. In July 2015 Harris J graduated from the world renowned BRIT School of Performing Arts in London (alumni include Adele, Amy Winehouse and others). His debut album "Salam" is OUT NOW.
-    social media powered talent contest. He has a passion and natural talent for singing and performing. In July 2015 Harris J graduated from the world renowned BRIT School of Performing Arts in London (alumni include Adele, Amy Winehouse and others). His debut album "Salam" is OUT NOW.
-    social media powered talent contest. He has a passion and natural talent for singing and performing. In July 2015 Harris J graduated from the world renowned BRIT School of Performing Arts in London (alumni include Adele, Amy Winehouse and others). His debut album "Salam" is OUT NOW.
-</div>
   </section>
   </>)
 }
