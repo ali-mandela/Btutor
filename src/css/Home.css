@@ -66,13 +66,20 @@
     flex: 5;
 
 }
-.homeHeaderImg img{
+.homeHeaderImg img{  
+    height: 100%;
     width: 100%;
+    object-fit: cover;
     
 }
-.hh{
-    height: 100vh;
-    background-color: rgb(156, 59, 59);
-    padding: 20px;
-    margin: 20px 80px;
-}
+ 
+
+
+/* @media (max-width:920px)and(min-width:650px) {
+    /* .homeHeaderImg{
+        display: none;
+    
+    *{
+        background-color: ;
+    }
+} */

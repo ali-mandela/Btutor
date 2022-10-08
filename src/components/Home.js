@@ -17,14 +17,13 @@ const Home = () => {
           Binary Tutor
         </h1>
         <span className='homeHeaderTitleSpan'>
-          Looking for Personel Tutor  
+          Looking for Personal Tutor  
         </span>
-        <a href="https://www.softr.io/blog/free-svg-illustrations#manypixels" > <h3 className='homeHeaderTitleh3'>Contact us
+        <a href="https://www.softr.io/blog/free-svg-illustrations#manypixels" > <h3 className='homeHeaderTitleh3'>Let's Chat
         </h3> </a>
          <p className='homeHeaderTitlep'>
-         Online Teacher Finding Company is an innovative new platform that connects teachers with students who are looking for a mentor or tutor. We are currently recruiting teachers across the UK to join our team as we grow!
-        </p>
-        
+         Binary Tutor Company is an innovative new platform that connects teachers with students who are looking for a mentor or tutor. We are currently recruiting teachers across the Kargil,Ladakh to join our team as we grow!
+        </p> 
       </div>
       <div className='homeHeaderImg'>
       <img src={heroimg4} alt="poic"/>
