@@ -28,13 +28,13 @@
 .homeHeaderTitleTop{
     color: teal;
     /* color:white ; */
-    font-size: 70px;
+    font-size:4rem;
     position: absolute;
     top: 10px;
     left: 0;
 }
 .homeHeaderTitleSpan{
-    font-size: 30px;
+    font-size: 2rem;
     color: orangered;
     font-weight: 700;
     position: absolute;
@@ -42,7 +42,7 @@
     left: 0;
 }
 .homeHeaderTitleh3{
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 1200;
     position: absolute;
     border-radius: 20px;
@@ -64,6 +64,7 @@
  
 .homeHeaderImg{
     flex: 5;
+    display: block;
 
 }
 .homeHeaderImg img{  
@@ -75,11 +76,13 @@
  
 
 
-/* @media (max-width:920px)and(min-width:650px) {
-    /* .homeHeaderImg{
-        display: none;
-    
-    *{
-        background-color: ;
+@media (max-width:920px)and(min-width:100px) {
+   
+    .homeHeader{ 
+    padding: 10px 30px; 
+     
     }
-} */
+    .homeHeaderImg img{
+        display: none;
+    }
+}
