@@ -6,7 +6,7 @@ import '../css/Navbar.css'
 
 
 const Navbar = () => {
-  const [ menu, setMenu] = useState(false);
+  const [ menu, setMenu] = useState(true);
 
   function handleChange(){
     setMenu(!menu);
