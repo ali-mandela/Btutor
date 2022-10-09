@@ -45,7 +45,7 @@ ul li{
 }
 .links{
     padding: 10px;
-    color: yellow;
+    color: #ffff00;
     transition: color .5s ease-out;
     
 }
