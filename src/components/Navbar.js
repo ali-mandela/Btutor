@@ -32,11 +32,11 @@ const Navbar = () => {
         {/* {menu === true ?   <i class="fa-3x faIcons fa-solid fa-xmark"  onClick={handleChange}></i>:<i className="fa-3x faIcons fa-solid fa-bars" onClick={handleChange}></i>} */}
             {!menu && <ul className='mobileNavbar'> 
             {!menu &&   <i class="fa-3x faIcons fa-solid links fa-xmark"  onClick={handleChange}></i>}
-
-                <li><NavLink to="/about" className="links">About</NavLink></li>
-                <li><NavLink to='/contact' className="links">Contact</NavLink></li> 
-                <li><NavLink to='/career' className="links">Career</NavLink></li>
-                <li><NavLink to='/apply' className="links">Apply now</NavLink></li>
+               <li  onClick={handleChange}><NavLink to="/" className="links">Home</NavLink></li>
+                <li  onClick={handleChange}><NavLink to="/about" className="links">About</NavLink></li>
+                <li  onClick={handleChange}><NavLink to='/contact' className="links">Contact</NavLink></li> 
+                <li  onClick={handleChange}><NavLink to='/career' className="links">Career</NavLink></li>
+                <li  onClick={handleChange}><NavLink to='/apply' className="links">Apply now</NavLink></li>
             </ul>} 
         </div>
     </section>

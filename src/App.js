@@ -12,11 +12,11 @@ function App() {
   <Navbar/>
   <Routes> 
   <Route exact path='/' element={<Home/>}/>
-  <Route path='/about' element={<About/>}/>
-  <Route path='/career' element={<Career/>}/>
-  <Route path='/policies' element={<Policies/>}/> 
-  <Route path='/apply' element={<Apply/>}/>
-  <Route path='/contact' element={<Contact/>}/>
+  <Route exact path='/about' element={<About/>}/>
+  <Route exact path='/career' element={<Career/>}/>
+  <Route exact path='/policies' element={<Policies/>}/> 
+  <Route exact path='/apply' element={<Apply/>}/>
+  <Route exact path='/contact' element={<Contact/>}/>
   </Routes> 
   </>);
 }

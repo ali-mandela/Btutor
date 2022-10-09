@@ -20,34 +20,36 @@
     flex: 7;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start
+    ;
     position: relative;
     /* background-image: url('../Assets/heroimg2.svg'); */
 }
 .homeHeaderTitleTop{
     color: teal;
-    /* color:white ; */
     font-size:4rem;
-    position: absolute;
-    top: 10px;
-    left: 0;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 0; */
 }
 .homeHeaderTitleSpan{
     font-size: 2rem;
     color: orangered;
     font-weight: 700;
-    position: absolute;
-    top: 96px;
-    left: 0;
+    display: inline-block;
+    /* position: absolute; */
+    /* top: 96px; */
+    /* left: 0; */
 }
 .homeHeaderTitleh3{
     font-size: 1.5rem;
     font-weight: 1200;
-    position: absolute;
+    /* position: absolute; */
     border-radius: 20px;
     top: 155px;
-    left: 0;
+    display: inline-block;
+    /* left: 0; */
     padding: 8px 16px;
     background-color: antiquewhite;
     transition: background-color 1s ease-in-out;
@@ -55,10 +57,11 @@
 }
 .homeHeaderTitleh3:hover{
     background-color: teal;
-    color: white;
+        box-shadow: 4px 4px  orangered;
+        color: white;
 }
 .homeHeaderTitlep{
-    position: absolute;
+    /* position: absolute; */
     top: 230px;
 }
  
@@ -76,13 +79,37 @@
  
 
 
-@media (max-width:920px)and(min-width:100px) {
-   
+@media screen and (max-width:920px ) and (min-width:100px) {
+   .home{
+    padding-top:100px ;
+} 
     .homeHeader{ 
-    padding: 10px 30px; 
+    padding: 10px 10px; 
+    flex-direction: column-reverse;
      
     }
-    .homeHeaderImg img{
-        display: none;
+    .homeHeaderTitle{
+        gap: 5px;
     }
+   
+    .homeHeaderTitleTop{ 
+        font-size:3rem; 
+    }
+    .homeHeaderTitleh3{
+        border-radius: 0px;
+    }
+    .homeHeaderTitleh3:hover{ 
+        box-shadow: 4px 4px  orangered;
+    }
+    .homeHeaderTitleSpan{
+        font-size: 1.5rem; 
+        display: inline-block; 
+    }
+    .homeHeaderTitleh3{
+        font-size:1.5rem;  
+    }
+   
+ 
+ 
+     
 }
