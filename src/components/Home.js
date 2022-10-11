@@ -3,6 +3,7 @@ import '../css/Home.css'
 // import pp from '../Assets/b2.svg'
 // import heroimg2 from '../Assets/heroimg2.svg'
 import heroimg4 from '../Assets/heroimg4.svg' 
+import Header from './Header'
 
 
 // heroimg3
@@ -30,6 +31,7 @@ const Home = () => {
       </div>
     </div>
   </section>
+  <Header/>
   </>)
 }
 
