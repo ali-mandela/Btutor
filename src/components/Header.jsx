@@ -1,43 +1,44 @@
 import React from 'react'
 import '../css/Header.css'
+import Under from './Under'
 
 const Header = () => {
-  return (<>
+  return (<> 
   <section className='headerMain'> 
   <div className='headerLeft'> 
-    <button >Get Tutor</button>
 
     <div className='headerbox'>
     
         <h1>Start</h1>
-        <p>How to startHow to startHow to startHow to startHow to start</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the .</p>
     </div><div className='headerbox'>
         <h1>Mid</h1>
-        <p>How to startHow to startHow to startHow to startHow to start</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the .</p>
     </div><div className='headerbox'>
         <h1>GET MENTOR</h1>
-        <p>How to startHow to startHow to startHow to startHow to start</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the .</p>
     </div>
+    <button >Get Tutor</button>
 
     </div>
 
     <div className='headerRight'> 
     <div className='headerbox'>
         <h1>Start</h1>
-        <p>How to startHow to startHow to startHow to startHow to start</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the .</p>
     </div>
     <div className='headerbox'>
         <h1>Mid</h1>
-        <p>How to startHow to startHow to startHow to startHow to start</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the .</p>
     </div>
     <div className='headerbox'>
         <h1>Teacher</h1>
-        <p>How to startHow to startHow to startHow to startHow to start</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the .</p>
     </div>
-    <button >Apply</button>
+    <button >Apply </button>
     </div>
    
-  </section>
+  </section> 
   </> )
 }
 

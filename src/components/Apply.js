@@ -1,8 +1,10 @@
 import React from 'react'
+import Under from './Under'
 
 const Apply = () => {
   return (
-    <div>Apply</div>
+    <Under heading="Apply"/>
+
   )
 }
 

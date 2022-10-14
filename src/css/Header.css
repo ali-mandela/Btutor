@@ -32,9 +32,10 @@
     border-radius: 4px;
 }
 .headerbox:hover{
-    transform: scale(1.2);
-    background-color: beige;
-    transition: all .5s ease-in-out;
+    /* transform: scale(1.005); */ 
+    box-shadow:0px 0px 4px 4px yellow;
+    /* background-color: beige; */
+    transition: all .1s ease-in-out;
 }
 .headerMain button{
     color: orangered;

@@ -1,8 +1,9 @@
 import React from 'react'
-
+import Under from './Under'
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <Under heading="Contact"/>
+
   )
 }
 

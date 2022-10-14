@@ -1,8 +1,9 @@
 import React from 'react'
-
+import Under from './Under'
 const About = () => {
   return ( <>
-    <div className='mandela'>Mandela page</div>
+       <Under heading="About us"/>
+
   </>)
 }
 

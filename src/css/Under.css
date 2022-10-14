@@ -1,0 +1,22 @@
+.under{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}
+/* .undermain{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+} */
+.undermain h1{
+    font-size: 3rem;
+    text-shadow: 2px 2px 0 yellow;
+    color: teal;
+}
+.undermain p{
+    font-size: 1rem;
+    color: orangered;
+}
