@@ -16,6 +16,9 @@
     text-shadow: 2px 2px 0 yellow;
     color: teal;
 }
+.undermain h1:hover{ 
+    text-shadow: 2px 2px 0 orangered; 
+}
 .undermain p{
     font-size: 1rem;
     color: orangered;
